@@ -1,0 +1,161 @@
+a:hover {
+  color: #5bacc3;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff0ed;
+  padding: 0.5rem;
+}
+
+.header__left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__logo {
+  height: 50px;
+  width: 50px;
+  padding: 0.5rem;
+}
+
+.header__title {
+  font-size: 33px;
+  font-weight: 300;
+}
+
+.navigation__options {
+  font-size: 21px;
+  font-weight: 400;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+}
+
+.navigation__option {
+  padding: 0 1rem;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: #393939;
+}
+
+.hero {
+  background-color: #fff0ed;
+  display: flex;
+  flex-direction: row;
+}
+
+.hero__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__title {
+  font-size: 33px;
+  font-weight: 300;
+}
+
+.hero__image {
+  height: 700px;
+}
+
+.hero__button,
+.products__button {
+  background-color: #5bacc3;
+  color: white;
+  font-weight: 400;
+  font-size: 21px;
+  border: none;
+  width: 180px;
+  padding: 20px;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+}
+
+.products__header {
+  font-size: 60px;
+  font-weight: 300;
+  padding: 0 1rem;
+}
+
+.products__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 5rem 0;
+}
+
+.products__item {
+  width: 330px;
+  height: 440px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.products__image {
+  height: 280px;
+}
+
+.products__title {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.products__price {
+  font-size: 33px;
+  font-weight: 400;
+  color: #5bacc3;
+  margin: 0;
+}
+
+.products__discount {
+  background-color: #393939;
+  width: 90%;
+}
+
+.products__discount__text {
+  color: white;
+  font-size: 45px;
+  font-weight: 400;
+  margin: 0;
+  padding: 20px;
+}
+
+.bold__text {
+  font-weight: 700;
+}
+
+.footer {
+  background-color: #fff0ed;
+}
+
+.footer__title {
+  font-size: 33px;
+  font-weight: 300;
+}
+
+.footer__line {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer__icon {
+  height: 40px;
+  width: 40px;
+}

@@ -1,0 +1,149 @@
+a:hover {
+ color: #5BACC3;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF0ED;
+    padding: 0.5rem;
+}
+
+.header__left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__logo {
+    height: 50px;
+    width: 50px;
+    padding: 0.5rem;
+}
+
+.header__title {
+    font-size: 33px;
+    font-weight: 300;
+}
+
+.navigation__options {
+    font-size: 21px;
+    font-weight: 400;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+}
+
+.navigation__option {
+    padding: 0 1rem;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #393939;
+}
+
+.menu__background {
+    background-image: url("../assets/hockeyicebackroung.png");
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.menu__title {
+    color: white;
+    text-align: center;
+    height: 200px;
+    width: 300px;
+    background-color: #393939;
+    font-size: 60px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #393939;
+}
+
+.menu__options {
+    text-align: center;
+    background-color: #393939;
+    font-size: 21px;
+    font-weight: 400;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin: 0;
+}
+
+.menu__option {
+    color: white;
+    border-left: 3px solid #5BACC3;
+    padding: 0 1rem;
+    margin: 0;
+    display: flex;
+    height: fit-content;
+}
+
+.jersey__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 2050px;
+    background-color: white;
+}
+
+.jersey__option {
+    background-color: #FFF0ED;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jersey__option-1 {
+    background-color: #F7F7F7;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jersey__team {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.jersey__name {
+    text-align: center;
+    font-size: 33px;
+    font-weight: 300;
+}
+
+.jersey__description {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    width: 800px;
+}
+
+.jersey__price {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #5BACC3;
+}
